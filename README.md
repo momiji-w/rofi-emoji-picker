@@ -1,5 +1,5 @@
 # rofi-emoji-picker
-Emoji picker script for rofi
+Emoji picker script for rofi.
 ## Get started
 ### Required applications
 - [rofi](https://github.com/davatorium/rofi)
@@ -21,7 +21,7 @@ chmod +x script.sh
 ```
 ## Using with Desktop environment
 ### Example with awesomewm
-adding shortcut key to the config (super + '.' in this example)
+adding shortcut key to the config (super + '.' in this example).
 ```lua
 awful.key({ modkey }, ".",
   function()
@@ -31,13 +31,13 @@ awful.key({ modkey }, ".",
   { description = "emoji picker", group = "client" }
 )
 ```
-edit the location of the emoji list to the desired location
+edit the location of the emoji list to the desired location.
 ## For Wayland Users
-Wayland users can replace the tools used the here with [wofi](https://hg.sr.ht/~scoopta/wofi) and [wtype](https://github.com/atx/wtype)
+Wayland users can replace the tools used the here with [wofi](https://hg.sr.ht/~scoopta/wofi) and [wtype](https://github.com/atx/wtype).
 ### Example with Hyprland
 ```config
 $emoji = wtype $(cat ~/.local/share/emoji_list.txt | wofi -S dmenu -p 'Emoji:' | awk '{ print $2 }')
 bind = $mainMod, B, exec, $emoji
 ```
 ## Credits
-shout out to [BuonOmo](https://gist.github.com/BuonOmo/77b75349c517defb01ef1097e72227af) for their list of UTF-8 emoji list
+shout out to [BuonOmo](https://gist.github.com/BuonOmo/77b75349c517defb01ef1097e72227af) for their list of UTF-8 emoji list.
