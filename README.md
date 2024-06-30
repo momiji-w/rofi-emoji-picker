@@ -1,5 +1,5 @@
 # rofi-emoji-picker
-Emoji picker script for rofi.
+Simple emoji picker script for rofi.
 ## Get started
 ### Required applications
 - [rofi](https://github.com/davatorium/rofi)
